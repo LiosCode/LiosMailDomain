@@ -1,0 +1,64 @@
+ /* Hier ist der Body zu bearbeitet, also alles was auf der Seite Grundleged verändert wird*/
+ *{
+
+    margin: 0;
+    padding: 0;
+    
+    background-image:url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* Makes sure the background doesn't repeat */
+    background-repeat: no-repeat;
+
+    /* Centers the background image */
+    background-position: center center;
+    
+    /* Farbe des Hauptmenüs */
+    .navHauptmenü{
+        color: #fefefe;
+        text-decoration: none;
+
+    
+    }
+   
+   
+   
+    /* Einstellung für das Localmenü*/
+.navLocalmenü{
+    color: #f3f704 !important;
+    text-decoration: none;  
+}}
+/* Ändern die Schriftgröße der Überschriften */
+h2 {
+    font-size: 25px;
+    color: aliceblue;
+}
+
+
+
+    
+
+    nav{
+    display: flex;
+    padding: 2
+    }
+
+
+
+/* Fügen Sie einen Rand und Abstand zu den Navigationspunkten hinzu 
+nav ul li {
+   
+    margin-left: 1px;
+}
+
+/* Ändern Sie die Farbe der Navigationslinks */
+/*nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
