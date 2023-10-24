@@ -1,78 +1,53 @@
  /* Hier ist der Body zu Bearbeitung, also alles was auf der Seite Grundleged verändert wird*/
- *{
+ body{
 
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-
-    /*width: 100%;
-    height: 100vh;*/
+    width: 10%;
+    height: 10%;
     background-image:url(images/apple.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-
-/* Makes sure the background doesn't repeat */
     background-repeat: no-repeat;
-
-/* Centers the background image */
 } 
-/* Farbe des Hauptmenüs/Schriftfarbe */
-.navHauptmenü li a{
+/* Hauptmenüs/Schrifteigenschaften */
+ .navHauptmenü ul li a{
     color: #fefefe;
     text-decoration: none;
-}
-   
-/* Einstellung für das Localmenü/Schrifteigenschaften*/
-.navLocalmenü li a{
-    color: #fefefe;
-    text-decoration: none;  
-}
-.Background{
-    height: 1cm;
-    background-color:  #000000;
-    top: 0;
+ }
+ .navHauptmenü ul li{ 
+    list-style: none;
+    text-transform: uppercase;
+    content:"";
+    height: 20px;
+    width: 34;
+    /* background: #009688;
+    position: absolute;
     left: 0;
-    right: 0;
-    color:#000000
-
+    bottom: -10px; */
 }
-/*.banner{
-    
-    
-}*/
 
+/* Einstellung für das Localmenü/Schrifteigenschaften*/
+.navLocalmenü ul li a{
+    color: #fefefe;
+    text-decoration: none;
+}
 
-/* Ändern die Schriftgröße der Überschriften */
+/* .navLocalmenü ul li{
+    text-transform: uppercase;
+    list-style: none;
+    content:"";
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+/* Schrifteigenschaften der Überschriften */
 h2 {
-    font-size: 25px;
+    font-size: 1,5em;
     color: aliceblue;
-}
-
-
-
-
-    
-
-    nav{
-    display: flex;
-    padding: 2
-    }
-
-
-
-/* Fügen Sie einen Rand und Abstand zu den Navigationspunkten hinzu 
-nav ul li {
-   
-    margin-left: 1px;
-}
-
-/* Ändern Sie die Farbe der Navigationslinks */
-/*nav ul li a {
-    color: #333;
-    text-decoration: none;
-}
-nav ul li a {
-    color: #333;
-    text-decoration: none;
 }
