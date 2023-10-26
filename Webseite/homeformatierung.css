@@ -12,6 +12,12 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 } 
+/* Hauptmenü Überschrift/ Schrifteigenschaften */
+h2 {
+    font-size: 1,5em;
+    color: aliceblue;
+}
+
 /* Hauptmenüs/Schrifteigenschaften */
  .navHauptmenü ul li a{
     color: #fefefe;
@@ -47,7 +53,4 @@
     bottom: -10px;
 }
 /* Schrifteigenschaften der Überschriften */
-h2 {
-    font-size: 1,5em;
-    color: aliceblue;
-}
+
